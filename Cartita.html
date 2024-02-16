@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Para Chiricuina</title>
+        <link rel="icon" href="coranzoncitos.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="cartita" onmouseover="playAudio()">
+            <div class="carta_exterior">
+                <img src="Chayanne.png" class="img_delantera">
+                <div class="texto_delantero">
+                    <h3>Un pequeñito detalle, para usted Chiricuina <3</h3>
+                </div>
+            </div>
+            <div class="carta_interior">
+                <img src="flok.png" class="img_interior">
+                <div>
+                    <audio controls autoplay id="audio"> 
+                        <source src="Never gonna.mp3" type="audio/mp3" class="musiquita">
+                    </audio>
+                </div>
+                <div class="texto_interior"> 
+                    <h4>Para la persona que más aprecio en este mundo v.v</h4>
+                    <p>A pesar de que hoy, simplemente es un día más, al menos quería dedicarte algunas palabras.
+                        Y a la vez agradecerte por seguir siendo mi amiga, a pesar de todos lo que hemos pasado, lo que hemos vivido y
+                        sin importar la distancia. Pues aquí sigues conmigo. Y te lo agradezco mucho, de todo corazón, por seguir siendo
+                        esa persona que sé que puedo contar siempre, con que siempre voy a poder reír, pasar un buen rato y olvidarme de lo malo
+                        que pasa a mi alrededor. Y puede que actualmente, no estemos tan comunicados o no seamos tan cercanos cómo antes. Pero para mí
+                        sos una de las personas más importantes en mí vida y espero poder seguir compartiendo buenos momentos con vos, por muchos años 
+                        más (Que ya vamos 6!!). Y nada más que decirte Alexandra, gracias por estar aquí. Te quiero mucho muchisímo y
+                        <strong>¡Feliz San Valenchín!</strong>
+
+                    </p>
+                </div>
+            </div>
+        </div>       
+        <script>
+            function playAudio() {
+                var audio = document.getElementById("audio");
+                audio.play();
+            }
+        </script> 
+    </body>
+</html>
